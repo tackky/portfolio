@@ -6,25 +6,33 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
+
+  <div id = "navi">
     <div>
       <h1 id = "top">Tackky's Portfolio</h1>
     </div>
-        <div>
-            <h2>About Me</h2>
-            <p>大学院で情報系を学ぶM2．絶賛就職活動中．ラズパイから画像処理，CG等，モノを作ることが好きです．</p>
-        </div>
-        <hr>
-        <!-- メインメニュー -->
-        <div id="menu">
-            <ul>
-        		<li id="menu01"><a href="#top">Home</a></li>
-        		<li id="menu02"><a href="#Recent">Recent Work</a></li>
-        		<li id="menu03"><a href="#Skill">SkillSet</a></li>
-        		<li id="menu04"><a href="#CG">CG</a></li>
-        		<li id="menu05"><a href="#Pictures">Pictures</a></li>
-        	</ul>
-        </div>
 
+    <!-- メインメニュー -->
+    <div id="menu">
+      <ul>
+        <li id="menu01"><a href="#top">Home</a></li>
+        <li id="menu02"><a href="#Recent">Recent Work</a></li>
+        <li id="menu03"><a href="#Skill">SkillSet</a></li>
+        <li id="menu04"><a href="#Publish">Published</a></li>
+        <li id="menu05"><a href="#CG">CG</a></li>
+        <li id="menu06"><a href="#Pictures">Pictures</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="container">
+    <div id="contents">
+      <h2>About Me</h2>
+        <p>大学院で情報系を学ぶM2．絶賛就職活動中．ラズパイから画像処理，CG等，モノを作ることが好きです．</p>
+        <p> 興味があるもの：画像(映像)処理,Blender,Zbrush, Vtuber,動画作成,機械学習,物体認識,競技プログラミング,etc</p>
+        <p> 趣味：ドライブ,自作PC,レース編み,キャンプ,日本酒,ピアノ,ゲーム,レジンクラフト</p>
+    </div>
+
+    <hr>
         <div id = "contents">
             <h2 id="Recent">Recent Work</h2>
             <h3>atCoder始めました．</h3>
@@ -38,9 +46,23 @@
         <h2 id="Skill">SkillSet</h2>
 
             <h4>Python</h4>
-            <p>一番よく使うのはPython3です．卒業論文はPythonで開発しています．映像処理を行っており，OpenCVやNumpyもある程度利用経験があります．</p>
-            <h4>HTML</h4>
-            <p>このページを適宜更新できる程度には理解しています．CSSはゆくゆく手を出します…</p>
+            <p>一番よく使うのはPython3です．卒業論文はPythonで開発しています．映像処理を行っており，OpenCVやNumpyもある程度利用経験があります．PythonからDBに保存するスクリプトなども書きました．</p>
+            <h4>MySQL</h4>
+            <p>大量のデータを保存できるSQLは好きです．ラズパイだとMariaDBですね．</p>
+            <h4>HTML&CSS</h4>
+            <p>このページを適宜更新できる程度には理解しています．jQueryはまだ…</p>
+            <h4>その他使用可能言語(講義使用+α程度)</h4>
+            <ul>
+              <li>Ruby</li>
+              <li>C</li>
+              <li>Perl</li>
+              <li>bash(言語…？)</li>
+              <li>JavaScript</li>
+            </ul>
+            <h4>Slack</h4>
+            <p>そろそろslackbotを開発してみたいと思っています．</p>
+            <h4>Git</h4>
+            <p>共同開発経験はほぼないですが，論文管理やスライド管理にも利用していて重宝しています．研究室にも早く導入させたい…</p>
             <h4>CG</h4>
             <p>趣味程度ですがblenderを用いたCG開発をやっています．ページ下の方で作品も展示します．</p>
             <h4>Raspberry Pi</h4>
@@ -49,6 +71,16 @@
             <p>基本はUbuntuばかりですが，基本的なコマンド操作はできます．cron, bash含めそれなりのUNIXコマンドは使用できます．</p>
             <h4>基本情報技術者</h4>
             <p>2019秋取得．</p>
+        </div>
+
+        <hr>
+
+        <div id="contents">
+        <h2 id="Publish"> published </h2>
+          <ul>
+            <li>Three-Dimensional Motion Tracking System for Extracting Spatial Movement Pattern of Small Fishes<br><a id ="link" href="https://link.springer.com/chapter/10.1007/978-3-319-98557-2_15">INCoS2018</a></li>
+            <li>Method for Extracting Positions of Players from Video of Lacrosse Game<br><a id = "link" href="https://link.springer.com/chapter/10.1007/978-3-030-29035-1_16">INCoS2019</a></li>
+          </ul>
         </div>
 
         <hr>
@@ -75,15 +107,16 @@
 
         <div id = "contents">
             <h2>Contact me !</h2>
-            Github : <a href="https://github.com/tackky">Tackky</a>
+            Github : <a id = "link" href="https://github.com/tackky">Tackky</a>
             <br>
-            Twitter : <a href="https://twitter.com/miilkmikity">@miilkmikity</a>
+            Twitter : <a id = "link" href="https://twitter.com/miilkmikity">@miilkmikity</a>
             <br>
-            Qiita : <a href="https://qiita.com/tackky">Tackky</a>
+            Qiita : <a  id ="link" href="https://qiita.com/tackky">Tackky</a>
             <br>
 
 
         </div>
+      </div>
 
 </body>
 </html>
