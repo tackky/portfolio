@@ -1,4 +1,30 @@
 body{
-    background: #008080;
-    color: #FFFFE0;
+    background: #EDE7F6;
+    color: #5D4037;
+    font-family: Century Gothic, sans-serif;
+}
+
+h1#top{
+  text-align: center;
+}
+
+h2{
+  background:linear-gradient(transparent 80%, #0D47A1 0%);
+}
+
+div#menu {
+	height:38px;
+  font-weight:bold;
+  font-size: 18px;
+  overflow: hidden;
+  background-color: #FFFFE0;
+}
+li#menu01,li#menu02,li#menu03,li#menu04,li#menu05 {
+	float:center ;			/*リスト項目を横に並べる*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+  padding-left: 20px;
+}
+
+div#contents{
+  padding-left: 20px;
 }
